@@ -26,3 +26,6 @@ LOW-INFORMATION / NOISE
 Base model use - distilbert-base-uncased (HuggingFace)
 LLM use - Groq (llama-3.3-70b-versatile)
 Fine-tuning	- Google Colab
+
+**Training design**
+I used batch size 16 because my GPU ran out of memory with batch size 32.
